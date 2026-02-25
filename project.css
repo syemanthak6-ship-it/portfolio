@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(6, 19, 39);
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+h1{
+      background-color: rgb(141, 101, 72);
+}
+.box{
+    background-color:rgb(164, 192, 80) ;
+       height: 500px;
+       width: 500px;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       border-radius: 100px;
+       text-align: center;
+       flex-direction: column;
+}
+
