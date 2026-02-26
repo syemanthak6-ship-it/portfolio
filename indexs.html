@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Home</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background:linear-gradient(135deg,#0b132b,#1c2541,#3a0ca3);
+}
+
+/* Glass Card */
+.home-card{
+    backdrop-filter:blur(18px);
+    background:rgba(255,255,255,0.08);
+    border:1px solid rgba(255,255,255,0.2);
+    padding:50px;
+    border-radius:20px;
+    text-align:center;
+    box-shadow:0 20px 40px rgba(0,0,0,0.5);
+}
+
+h1{
+    color:white;
+    margin-bottom:15px;
+}
+
+p{
+    color:#d0d6ff;
+    margin-bottom:25px;
+}
+
+/* Button */
+.btn{
+    padding:14px 28px;
+    border:none;
+    border-radius:10px;
+    font-size:16px;
+    cursor:pointer;
+    background:linear-gradient(45deg,#6a5cff,#8b7bff);
+    color:white;
+    transition:0.3s;
+    font-weight:600;
+}
+
+.btn:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 15px rgba(120,120,255,0.7);
+}
+</style>
+
+</head>
+
+<body>
+
+<div class="home-card">
+    <h1>✨ Welcome</h1>
+    <p>Days Lived Calculator Project</p>
+
+    <a href="projects.html">
+        <button class="btn">Open Calculator</button>
+    </a>
+</div>
+
+</body>
+</html>

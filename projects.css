@@ -1,0 +1,106 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Animated Gradient Background */
+body{
+    height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    background: linear-gradient(135deg,#0b132b,#1c2541,#3a0ca3);
+}
+
+/* Center container */
+.container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+/* Glass Card */
+.card{
+    backdrop-filter: blur(18px);
+    background: rgba(255,255,255,0.08);
+    border:1px solid rgba(255,255,255,0.2);
+    padding:40px;
+    border-radius:18px;
+    text-align:center;
+    width:340px;
+    box-shadow:0 20px 40px rgba(0,0,0,0.5);
+    transition:0.4s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+}
+
+/* Title */
+.card h2{
+    color:#fff;
+    margin-bottom:15px;
+    letter-spacing:1px;
+}
+
+.card p{
+    color:#d0d6ff;
+    margin-bottom:15px;
+}
+
+/* Glass Input */
+input[type="date"]{
+    width:100%;
+    padding:12px;
+    border-radius:8px;
+    border:1px solid rgba(255,255,255,0.3);
+    background:rgba(255,255,255,0.1);
+    color:white;
+    outline:none;
+    margin-bottom:20px;
+}
+
+/* Buttons Base */
+.btn{
+    width:100%;
+    padding:12px;
+    margin-top:12px;
+    border:none;
+    border-radius:8px;
+    font-size:15px;
+    cursor:pointer;
+    transition:0.3s;
+    font-weight:600;
+}
+
+/* Calculate Button */
+.primary{
+    background:linear-gradient(45deg,#6a5cff,#8b7bff);
+    color:white;
+}
+
+.primary:hover{
+    transform:scale(1.05);
+    box-shadow:0 0 15px rgba(120,120,255,0.7);
+}
+
+/* Back Button */
+.secondary{
+    background:rgba(255,255,255,0.15);
+    color:white;
+    border:1px solid rgba(255,255,255,0.3);
+}
+
+.secondary:hover{
+    background:rgba(255,255,255,0.25);
+}
+
+/* Result Text */
+#result{
+    margin-top:18px;
+    font-size:16px;
+    color:#ffffff;
+    font-weight:bold;
+}
